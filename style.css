@@ -1,0 +1,90 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Aral, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+}
+
+b{
+    display: block;
+    padding: 10px;
+}
+
+h3, .h3 {
+    margin-top:2.75rem;
+    margin-bottom: 2rem;
+    color:grey;
+  }
+
+.portfolio-intro-grey {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #343a40;
+  }
+
+  .modal-grey-left {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+    color: #343a40;
+  }
+
+  .modal-dialog-quote {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #1abc9c;
+  }
+
+  .modal-dialog-quote-big {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color:#1abc9c;
+  }
+
+  ul {
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+
+.article-align {
+    text-align: left !important;
+}
+
+button{
+    padding: 5px 10px;
+}
+img,
+.image{
+    width: 60vw;
+    max-width: 300px;
+    margin: 1vh 1vw;
+}
+.image{
+    display: inline-block;
+    height: 20vw;
+    max-height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spotlight.image{
+    cursor: pointer;
+}
+
+.research-image {
+    width: 100% !important;
+    height: auto !important;
+}
